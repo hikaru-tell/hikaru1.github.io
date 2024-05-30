@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>誕生日の曜日判定ツール</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>誕生日の曜日判定ツール</h1>
+    </header>
+    <main>
+        <section>
+            <h2>名前と生年月日を入力してください</h2>
+            <label for="nameInput">名前:</label>
+            <input type="text" id="nameInput" placeholder="名前を入力">
+            <label for="birthdayInput">生年月日:</label>
+            <input type="date" id="birthdayInput" value="2000-04-01">
+            <button onclick="calculateBirthdays()">判定</button>
+            <div id="result"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 誕生日の曜日判定ツール</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
